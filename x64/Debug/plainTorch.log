@@ -1,0 +1,184 @@
+﻿cl : Command line warning D9014: invalid value '2872' for '/wd'; assuming '5999'
+  Source.cpp
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\detail\queue.h(78): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\detail\queue.h(78): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\detail\queue.h(81): note: see reference to class template instantiation 'torch::data::detail::Queue<T>' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\chrono(595): note: see reference to class template instantiation 'std::chrono::duration<double,std::ratio<1,1>>' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\chrono(172): note: see reference to class template instantiation 'std::chrono::duration<__int64,std::nano>' being compiled
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\chrono(574): note: see reference to class template instantiation 'std::chrono::time_point<std::chrono::steady_clock,std::chrono::steady_clock::duration>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\detail\queue.h(79): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\detail\queue.h(79): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\detail\queue.h(80): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\detail\queue.h(80): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\detail\sequencers.h(108): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\detail\sequencers.h(108): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\detail\sequencers.h(109): note: see reference to class template instantiation 'torch::data::detail::sequencers::OrderedSequencer<Result>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\iterator.h(175): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\iterator.h(175): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\iterator.h(176): note: see reference to class template instantiation 'torch::data::Iterator<Batch>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(128): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(128): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(126): note: see reference to class template instantiation 'torch::data::DataLoaderBase<Dataset,Batch,BatchRequest>::Result' being compiled
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(244): note: see reference to class template instantiation 'torch::data::DataLoaderBase<Dataset,Batch,BatchRequest>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(212): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(212): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(227): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(227): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(234): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(234): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(240): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader\base.h(240): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader.h(51): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\dataloader.h(51): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\base.h(86): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\base.h(86): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\base.h(94): note: see reference to class template instantiation 'torch::data::datasets::Dataset<Self,SingleExample>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(209): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(209): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(200): note: see reference to class template instantiation 'torch::data::datasets::detail::BatchDataBuffer<UnwrappedBatch,ExampleSampler>::UnwrappedBatchData' being compiled
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(233): note: see reference to class template instantiation 'torch::data::datasets::detail::BatchDataBuffer<UnwrappedBatch,ExampleSampler>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(213): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(213): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(216): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(216): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(218): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(218): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(219): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(219): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(430): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(430): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(448): note: see reference to class template instantiation 'torch::data::datasets::ChunkDataset<ChunkReader,ChunkSampler,ExampleSampler>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(434): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(434): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(440): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(440): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(444): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(444): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(447): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\chunk.h(447): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\shared.h(71): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\shared.h(71): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\datasets\shared.h(72): note: see reference to class template instantiation 'torch::data::datasets::SharedBatchDataset<UnderlyingDataset>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\data\transforms\base.h(42): error C2872: 'std': ambiguous symbol
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\queue(346): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\transforms\base.h(42): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\data\transforms\base.h(50): note: see reference to class template instantiation 'torch::data::transforms::Transform<Input,Output>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\pimpl.h(31): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\pimpl.h(31): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\pimpl.h(164): note: see reference to class template instantiation 'torch::nn::ModuleHolder<Contained>' being compiled
+  E:\libtorchGPU\include\ATen\core\stack.h(41): note: see reference to class template instantiation 'c10::ArrayRef<c10::IValue>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\pimpl.h(153): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\pimpl.h(153): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\pimpl.h(168): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\pimpl.h(168): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\module.h(446): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\module.h(446): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\module.h(465): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\module.h(465): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\module.h(556): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\module.h(556): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\module.h(570): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\module.h(570): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\cloneable.h(34): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\cloneable.h(34): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\cloneable.h(89): note: see reference to class template instantiation 'torch::nn::Cloneable<Derived>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(181): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(181): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(212): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(212): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(367): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(367): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(357): note: see reference to class template instantiation 'torch::nn::AnyModule::Holder<ModuleType,ArgumentTypes...>::CheckedGetter' being compiled
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(414): note: see reference to class template instantiation 'torch::nn::AnyModule::Holder<ModuleType,ArgumentTypes...>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(376): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(376): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(374): note: see reference to class template instantiation 'torch::nn::AnyModule::Holder<ModuleType,ArgumentTypes...>::InvokeForward' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(399): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(399): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(403): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(403): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(407): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(407): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(413): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(413): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(507): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(507): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(530): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\any.h(530): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\expanding_array.h(52): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\expanding_array.h(52): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\expanding_array.h(84): note: see reference to class template instantiation 'torch::ExpandingArray<D,T>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\expanding_array.h(62): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\expanding_array.h(62): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\expanding_array.h(83): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\expanding_array.h(83): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\expanding_array.h(87): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\expanding_array.h(87): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(94): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(94): note: or       'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(137): note: see reference to class template instantiation 'torch::nn::detail::RNNImplBase<Derived>' being compiled
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(96): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(96): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(98): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(98): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(100): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(100): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(113): error C2066: cast to function type is illegal
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(124): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(124): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(136): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\rnn.h(136): note: or       'std'
+E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\sequential.h(294): error C2872: 'std': ambiguous symbol
+  E:\libtorchGPU\include\torch\csrc\jit\script\tree_views.h(957): note: could be 'std'
+  E:\libtorchGPU\include\torch\csrc\api\include\torch\nn\modules\sequential.h(294): note: or       'std'

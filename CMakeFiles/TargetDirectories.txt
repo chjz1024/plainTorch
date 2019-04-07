@@ -1,0 +1,3 @@
+C:/Users/18245/Desktop/plainTorch/CMakeFiles/CMakeProject.dir
+C:/Users/18245/Desktop/plainTorch/CMakeFiles/ALL_BUILD.dir
+C:/Users/18245/Desktop/plainTorch/CMakeFiles/ZERO_CHECK.dir
